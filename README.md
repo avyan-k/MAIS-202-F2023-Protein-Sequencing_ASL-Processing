@@ -2,7 +2,7 @@
 
 <!-- ![](images/website.png) -->
 Click the youtube link below for video of the demo
-![](images/website.png)(https://youtu.be/W6THl5gSJh0)
+![](images/website.png)(https://www.youtube.com/watch?v=iEeXWWJMvew)
 
 ## About the Project
 
