@@ -14,6 +14,8 @@ import os
 
 DEVICE = ld.load_device()
 
+
+
 class MLP_model(nn.Module):
   """Our MLP model
   Args:

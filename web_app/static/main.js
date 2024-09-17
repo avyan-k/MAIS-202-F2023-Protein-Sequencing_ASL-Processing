@@ -1,5 +1,5 @@
 // Identification for Javascript
-const videoElement = document.getElementById('webcam');
+const videoElement = document.getElementById('webcam'); // reference to buttons 
 const startButton = document.getElementById('startButton');
 const deleteButton = document.getElementById('deleteButton');
 const snapButton = document.getElementById('snapButton');
@@ -11,7 +11,7 @@ const resetButton = document.getElementById('resetButton');
 const spaceButton = document.getElementById('spaceButton');
 
 
-let stream;
+let stream; // let has scope and var has no scope
 let MESSAGE = "";
 
 videoElement.onloadedmetadata = () => {

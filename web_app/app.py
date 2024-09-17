@@ -112,7 +112,7 @@ def receive_data():
 
 @app.route("/feedback",methods=["POST"])
 def feedback():
-    rating = request.form['rating']
+    rating = request.form['rate']
     feedback_file = 'feedback.txt'
     with open(feedback_file, 'a') as file:
         file.write(f"{rating}\n")
